@@ -2,6 +2,7 @@ import Hashtaurante from "./assets/hashtaurante.webp";
 import "./App.css";
 import { Navegacao } from "./Navegacao.jsx";
 import { ItemCardapio } from "./ItemCardapio.jsx";
+import { pratosPrincipais, sobremesas, bebidas } from "./cardapio.js";
 
 export function App() {
   return (
@@ -9,10 +10,14 @@ export function App() {
       <img src={Hashtaurante} alt="" className="capa" />
       <Navegacao />
       <div className="menu">
-        <ItemCardapio />
-        <ItemCardapio />
-        <ItemCardapio />
-        <ItemCardapio />
+        {pratosPrincipais.map((item) => (
+          <ItemCardapio
+            nome={item.nome}
+            descricao={item.descricao}
+            preco={item.preco}
+            imagem={item.imagem}
+          />
+        ))}
       </div>
     </>
   );
