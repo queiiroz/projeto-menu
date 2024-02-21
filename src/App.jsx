@@ -5,16 +5,14 @@ import { Navegacao } from "./Navegacao.jsx";
 import { ItemCardapio } from "./ItemCardapio.jsx";
 import { pratosPrincipais, sobremesas, bebidas } from "./cardapio.js";
 
-
 export function App() {
-
-  const paginasMenu = [pratosPrincipais, sobremesas, bebidas]
+  const paginasMenu = [pratosPrincipais, sobremesas, bebidas];
   const [paginaSelecionada, atualizarPaginaSelecionada] = useState(0);
 
   return (
     <>
-      <img src={Hashtaurante} alt="" className="capa" />
-      <Navegacao atualizarPaginaSelecionada={atualizarPaginaSelecionada}/>
+      <h1 className="capa">FOOD <span>MENU</span></h1>
+      <Navegacao atualizarPaginaSelecionada={atualizarPaginaSelecionada} />
       <div className="menu">
         {paginasMenu[paginaSelecionada].map((item) => (
           <ItemCardapio
@@ -25,6 +23,12 @@ export function App() {
           />
         ))}
       </div>
+      <footer className="footer">
+        Feito por{" "}
+        <a href="https://github.com/queiiroz" target="_blank">
+          Gleidson Queiroz 💻
+        </a>
+      </footer>
     </>
   );
 }

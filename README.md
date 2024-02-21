@@ -1,8 +1,36 @@
-# React + Vite
+# 💻 Praticando
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="./src/assets/imagem-projeto.png" />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div align="center">
+
+
+
+</div>
+
+## 💻 Primeiro contato com React
+
+Nesse projeto tive meu primeiro contato com o React depois de 1 ano consolidando minha base em HTML, CSS e JavaScript. Nesse projeto criei uma espécie de cardápio digital.
+
+## 🛠 Tecnologias
+
+- HTML
+- CSS
+- JavaScript
+- React
+- Vite
+- Node
+- Git
+- GitHub
+
+<table>
+  <tr>
+    <td>
+     <img src="./src/assets/avatar-gleidsonqueiroz.png" width="100px"/>
+    </td>
+    <td>
+      Feito por Gleidson Queiroz.</a> 🙋🏼‍♂️
+    </td>
+  </tr>
+</table>
