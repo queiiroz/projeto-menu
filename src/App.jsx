@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Hashtaurante from "./assets/hashtaurante.webp";
 import "./App.css";
 import { Navegacao } from "./Navegacao.jsx";
 import { ItemCardapio } from "./ItemCardapio.jsx";
